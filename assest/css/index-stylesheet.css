@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  background-image: url(/assest/images/index/Benefits\ of\ project\ management\ software.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+.back {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+}
+.img {
+  background-color: black;
+  width: 350px;
+  height: 350px;
+  box-shadow: 0px 0px 4px cyan;
+  border-radius: 100%;
+  overflow: hidden;
+  & img {
+    margin-top: -40px;
+    width: 320px;
+    opacity: 0.4;
+  }
+}
+h2,
+h3 {
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 20px;
+  color: white;
+}
+.container {
+  text-align: center;
+  position: relative;
+  top: 20px;
+  left: 50px;
+  width: 600px;
+}
+.cases {
+  padding-top: 10px;
+  margin-left: 30px;
+  width: 50vw;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.cart {
+  transition: all 0.5s;
+  background-color: black;
+  box-shadow: 0px 0px 3px white;
+  height: 160px;
+  width: 115px;
+  border-radius: 4px;
+}
+.cart:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 0px 3px cyan;
+  p,
+  h3 {
+    color: cyan;
+  }
+}
+p {
+  font-size: 30px;
+  color: white;
+}
+.imagediv {
+  position: fixed;
+  top: 120px;
+  right: 200px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  & h2 {
+    font-size: 30px;
+  }
+}
+a {
+  text-decoration: none;
+}
+.heading {
+  font-size: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 50vw;
+  height: auto;
+}
